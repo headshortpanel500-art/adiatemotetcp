@@ -1,0 +1,10 @@
+model Deposit {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  senderNumber  String
+  transactionId String   @unique
+  credits       Int
+  price         Int
+  gateway       String
+  status        String   @default("Pending")
+  createdAt     DateTime @default(now())
+}
