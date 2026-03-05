@@ -88,7 +88,7 @@ export default function LoginPage() {
               {isLogin ? <FiLogIn className="w-10 h-10 text-white" /> : <FiUserPlus className="w-10 h-10 text-white" />}
             </div>
             <h1 className="text-3xl font-bold text-white mb-2">
-              {isLogin ? "Welcome To Tahmid" : "Create Account"}
+              {isLogin ? "Welcome To tahmid" : "Create Account"}
             </h1>
             <p className="text-gray-300">
               {isLogin ? "Sign in to continue to your account" : "Join us to start sending emotes"}
